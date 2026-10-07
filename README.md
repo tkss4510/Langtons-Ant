@@ -15,7 +15,7 @@ From the project root:
 
 ```
 premake5 gmake
-mingw32-make -C build config=release -j
+mingw32-make -C build config=release 
 ```
 
 On Linux or macOS, use `premake5` from your system and `make` instead of `mingw32-make`.
